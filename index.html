@@ -37,6 +37,20 @@ span.emph {
 .a-right {
     text-align: right;
 }
+  .image-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* Creates a square by using aspect ratio */
+    overflow: hidden;
+  }
+  .image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
     </style>
 <!-- Favicons -->
 <!--TODO-->  
@@ -81,9 +95,68 @@ and related topics.<br>
 
 
   </p>
-
     </div>
+    <br>
+    <div class="container">
+  <div class="row">
+    <div class="col">
+    <a href="http://www.cs.cmu.edu/~emc/2014/photos.html">
+    <img src="kens/ken1.png" class="img-fluid rounded border border-primary" alt="Picture 1">
+    </a>
+    </div>
+    <div class="col">
+    <a href="https://en.wikipedia.org/wiki/Kenneth_L._McMillan#/media/File:Edmund_Clarke_2_FLoC_2006.jpg">
+      <img src="kens/ken2.png" class="img-fluid rounded border border-secondary" style="object-fit: cover;" alt="Picture 2">
+      </a>
+    </div>
+    <div class="col">
+    <a href="http://mcmil.net/ken_japan_cropped1.jpg">
+      <img src="kens/ken3.png" class="img-fluid rounded border border-success" style="object-fit: cover;" alt="Picture 3">
+      </a>
+    </div>
+    <div class="col">
+    <a href="https://popl18.sigplan.org/profile/kennethlmcmillan">
+      <img src="kens/ken4.png" class="img-fluid rounded border border-warning" alt="Picture 4">
+      </a>
+    </div>
+    <div class="col">
+    <a href="">
+      <img src="kens/ken5.png" class="img-fluid rounded border border-info" alt="Picture 5">
+      </a>
+    </div>
+  </div>
+</div>
 </main>
+
+<br>
+<div class="container">
+<div class="row">
+  <div class="col">
+  <h3>Speakers</h3>
+<ul>
+  <li>Aws Albarghouthi, University of Wisconsin--Madison</li>
+  <li>Nina Amla, National Science Foundation</li>
+  <li>David Dill, Stanford University</li>
+  <li>Asgeir Eiriksson, Apple, Inc.</li>
+  <li>Orna Grumberg, Technion</li>
+  <li>Aarti Gupta, Princeton University</li>
+  <li>Oded Padon, Weizmann Institute of Science</li>
+  <li>Lenore Zuck, University of Illinois at Chicago</li>
+</ul>
+  </div>
+
+  <div class="col">
+  <h3>Organizers</h3>
+  <ul>
+  <li>Ranjit Jhala, UCSD</li>
+  <li>Isil Dillig, UT Austin</li>
+  </ul>
+  </div>
+</div>
+
+<br><br>
+<hr>
+
 
     </body>
 </html>
