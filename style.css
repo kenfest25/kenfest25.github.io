@@ -1,0 +1,10 @@
+.image-description {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .1s, visibility .1s;
+}
+
+.image-wrap:hover .image-description {
+  visibility: visible;
+  opacity: 1;
+}
