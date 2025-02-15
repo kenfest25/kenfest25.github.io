@@ -5,6 +5,14 @@
         margin-left: 10% auto;
         margin-right: 10% auto;
     }
+
+    .header-banner {
+        margin-left:1%;
+	margin-right:1%;
+	padding-left:1%;
+	padding-right:1%;	
+     }
+
     /* responsive margins on mobile */
     @media only screen and(max-width: 768px) {
         *, html, body {
@@ -57,5 +65,19 @@
         padding-top:2%;
         padding-bottom:1%;
         background: #666666;
-        color:white;
+        background-image: url(./zagreb.png) ;
+        background-size:cover;
+        background-repeat:no-repeat;
+	background-position:center;
+    }
+
+    /*.shadowy {
+	color:white;
+  	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }*/
+    .col-custom-banner {
+    	padding:2%;
+	opacity:0.9;
+	background:#666666;
+	color:white;
     }
