@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Stripo.email
+BEGIN:VEVENT
+UID:67b0d883269ff
+DTSTAMP:20250215T181011Z
+SUMMARY:Ken McMillan Celebration at CAV 2025
+DESCRIPTION:1-day workshop at CAV 2025 in honor of Kenneth McMillan's 60th 
+ birthday. Details may be found at https://kenfest25.github.io/.
+LOCATION:Westin Hotel Conference Center\, Zagreb\, Croatia
+CLASS:PUBLIC
+DTSTART:20250722T070000Z
+DTEND:20250722T190000Z
+END:VEVENT
+END:VCALENDAR
